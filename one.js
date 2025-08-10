@@ -30,8 +30,9 @@ function typ(_a) {
     var name = _a.name, roll = _a.roll;
     console.log(name);
     console.log(roll);
+    //re assigning the value into name, roll
     return {
-        name: "rtrttrr",
+        name: name,
         roll: 78
     };
 }

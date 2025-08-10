@@ -43,8 +43,9 @@ type t={
 function typ({name, roll}:t):t{  // we can also use ( tt: t) in this
     console.log(name);
     console.log(roll);
+    //re assigning the value into name, roll
     return {
-        name : "rtrttrr",
+        name ,
         roll : 78
     }
 }
