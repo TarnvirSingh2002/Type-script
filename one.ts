@@ -19,7 +19,7 @@ console.log(v);
 
 //Arrays
 let arr=["tarn", "vir","singh", "ji"];
-let arr2 = arr.map((ele):string=> `upper are ${ele.toUpperCase()}`);// it is returning a string
+let arr2 = arr.map((ele:string):string=> `upper are ${ele.toUpperCase()}`);// it is returning a string
 console.log(arr2);
 
 

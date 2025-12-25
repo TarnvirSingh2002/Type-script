@@ -47,7 +47,7 @@ check(67);
 //Arrays
 let arr: number[] | string[] =[6,9,0,6,1]; //it can be either all strings or all numbers
 let arr2: (number | string | boolean)[] =[6,91,true,"fjvf",8.9];
-
+let arr3: Array<number>=[0,9,7,0]
 
 //constant
 let a:34=34;
